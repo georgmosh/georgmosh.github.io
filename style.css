@@ -56,7 +56,7 @@ footer {
     padding: 50px;
 }
 
-#hero h1 {
+#welcome h1 {
     font-size: 3em;
 }
 
@@ -75,11 +75,11 @@ header a {
 
 /* Add everything below here */
 
-#hero {
+#welcome {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://georgmosh.files.wordpress.com/2014/11/dsc00455.jpg');
 }
 
-#about {
+#work {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://georgmosh.files.wordpress.com/2023/01/20221213_184858.jpg');
 }
 
