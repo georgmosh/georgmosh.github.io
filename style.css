@@ -39,11 +39,16 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
 }
 
-#welcome .profile-img {
+#hero .profile-img {
     width: 300px;
-    border-radius: 50%; /* Add this line */
+    border-radius: 50%;
 }
 
 footer {
@@ -51,9 +56,7 @@ footer {
     padding: 50px;
 }
 
-/* Add everything below here */
-
-#welcome h1 {
+#hero h1 {
     font-size: 3em;
 }
 
@@ -65,11 +68,21 @@ section h3 {
     font-size: 1.5em;
 }
 
-section p {
-    font-size: 0.5em;
-}
-
 header a {
     text-decoration: none;
     color: black;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://georgmosh.files.wordpress.com/2014/11/dsc00455.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://georgmosh.files.wordpress.com/2023/01/20221213_184858.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://georgmosh.files.wordpress.com/2023/04/officr-2.jpeg');
 }
