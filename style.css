@@ -46,7 +46,7 @@ section {
     background-attachment: fixed; /* Add this line */
 }
 
-#hero .profile-img {
+#welcome .profile-img {
     width: 300px;
     border-radius: 50%;
 }
